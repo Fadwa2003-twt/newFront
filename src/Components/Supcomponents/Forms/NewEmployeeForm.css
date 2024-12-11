@@ -1,0 +1,57 @@
+.page {
+  font-family: Katibeh;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.header {
+  font-family: Katibeh !important;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  text-align: right;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+input:invalid,
+select:invalid {
+  border: 1px solid red;
+}
+
+/*.input-group {*/
+/*  margin-bottom: 16px;*/
+/*}*/
+/* 
+.input-error {
+  border: 1px solid #e74c3c; 
+} 
+*/
+
+.error-message {
+  color: #e74c3c; /* Red color for error message */
+  font-size: 12px;
+  margin-top: 4px;
+}

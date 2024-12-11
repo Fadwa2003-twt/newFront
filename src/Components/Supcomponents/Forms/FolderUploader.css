@@ -1,0 +1,20 @@
+.custom-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.custom-card p {
+    margin: 10px 0;
+}
+
+.text-danger {
+    color: red;
+}
+
+.mx-2 {
+    margin: 0 2px;
+}

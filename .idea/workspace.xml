@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8ff92eb-4ec3-4694-b01d-e917b42fb0ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Charts/DoughnutChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Charts/DoughnutChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HomeComponents/Taps/AddNewTask.tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HomeComponents/Taps/Home.tap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HomeComponents/Taps/Home.tap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/admin.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/admin.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modals/Accounts/AddAccount.modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modals/Accounts/AddAccount.modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modals/Accounts/AddTweets/AddTweets.modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modals/Accounts/AddTweets/AddTweets.modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modals/Accounts/Follow.modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modals/Accounts/Follow.modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modals/Tasks/CreateTask.modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/ManageTasks.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/components/ListTasksComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/components/ListsTasksComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/components/NewListTasks.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/components/TaskCardComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ManageTasks/components/ThirdTabComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SocialMedia/components/Taps/Tweeter.social.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SocialMedia/components/Taps/Tweeter.social.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamWork/Taps/Teamwork.planning.tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamWork/TeamWork.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamWork/TeamWork.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamWork/TeamWorkComponents/TaskCalendar.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamWork/TeamWorkComponents/TaskCard.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat/components/Meetings/MeetingMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat/components/Meetings/MeetingMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat/components/Meetings/TasksOFMeeting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat/components/Meetings/TasksOFMeeting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Account/GetDataInfoAccounts.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/Account/GetDataInfoAccounts.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Employee/DeleteEmployee.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/Employee/DeleteEmployee.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Employee/GetEmployees.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/Employee/GetEmployees.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Planner/GetTasks.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Planner/GetTasksForUsersAction.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/CreateTask.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/CreateTaskCard.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/DeleteCard.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/DeleteManyTasks.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/DeleteTask.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/EditTask.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/EditTaskCard.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/GetTasks.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/GetTasksCards.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/GetTasksForEmployee.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/GetTasksRatings.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/GetTodayTasks.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/NewTasks.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/ReturnTask.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/TaskDelivery.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/TaskRating.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Task/TasksDone.action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/Tweet/CreateTweetsAccounts.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/Tweet/CreateTweetsAccounts.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/Department.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/Department.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/Planner.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/Tasks.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validationSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validationSchema.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2jNRMMJTFqtthldbhM2gMdPIYRp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Abdullah&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/React website/new-twtsys-dashboard&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React website\new-twtsys-dashboard\src\Components\Supcomponents\Forms" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\redux\action\CategoriesAccount" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\redux\action" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\redux\reducer" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\assets\icons\Notifications" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React website\new-twtsys-dashboard\src\redux\action\Category" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\modals\Accounts\insta\Story" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\modals\Accounts\Reply" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\modals\Accounts" />
+      <recent name="D:\React website\new-twtsys-dashboard\src\modals\Accounts\AddTweets\components" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ff92eb-4ec3-4694-b01d-e917b42fb0ba" name="Changes" comment="" />
+      <created>1721225498447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721225498447</updated>
+      <workItem from="1721225499687" duration="53221000" />
+      <workItem from="1721410700858" duration="647000" />
+      <workItem from="1721455392829" duration="13849000" />
+      <workItem from="1721529204951" duration="27057000" />
+      <workItem from="1721633830959" duration="12385000" />
+      <workItem from="1721665177574" duration="36466000" />
+      <workItem from="1721900422946" duration="23416000" />
+      <workItem from="1721931602227" duration="13807000" />
+      <workItem from="1723270770261" duration="20556000" />
+      <workItem from="1723361629776" duration="15591000" />
+      <workItem from="1723378550111" duration="349000" />
+      <workItem from="1723378941301" duration="1145000" />
+      <workItem from="1723380383675" duration="12340000" />
+      <workItem from="1723623860397" duration="294000" />
+      <workItem from="1723702878769" duration="17165000" />
+      <workItem from="1723866993758" duration="14914000" />
+      <workItem from="1723912097559" duration="2577000" />
+      <workItem from="1723950669243" duration="13093000" />
+      <workItem from="1724034792663" duration="36263000" />
+      <workItem from="1724089148130" duration="11225000" />
+      <workItem from="1724151443461" duration="2949000" />
+      <workItem from="1724212847768" duration="6259000" />
+      <workItem from="1724236813078" duration="9856000" />
+      <workItem from="1724383989298" duration="1146000" />
+      <workItem from="1724392853703" duration="3544000" />
+      <workItem from="1724397224545" duration="411000" />
+      <workItem from="1725383395854" duration="5313000" />
+      <workItem from="1725388970334" duration="21980000" />
+      <workItem from="1725530889716" duration="10414000" />
+      <workItem from="1725733904760" duration="10027000" />
+      <workItem from="1725841633503" duration="5986000" />
+      <workItem from="1725951653251" duration="460000" />
+      <workItem from="1725952207189" duration="13604000" />
+      <workItem from="1726038013657" duration="382000" />
+      <workItem from="1726058232705" duration="450000" />
+      <workItem from="1726176295021" duration="30818000" />
+      <workItem from="1726294432422" duration="1099000" />
+      <workItem from="1726298159620" duration="15149000" />
+      <workItem from="1726331288970" duration="4829000" />
+      <workItem from="1726422890598" duration="3677000" />
+      <workItem from="1726455770545" duration="7692000" />
+      <workItem from="1726486140482" duration="6583000" />
+      <workItem from="1726546005531" duration="305000" />
+      <workItem from="1726731314630" duration="13145000" />
+      <workItem from="1726808406241" duration="7268000" />
+      <workItem from="1726817132740" duration="5133000" />
+      <workItem from="1726961210897" duration="1123000" />
+      <workItem from="1726962381597" duration="3188000" />
+      <workItem from="1726965719077" duration="9682000" />
+      <workItem from="1726977405495" duration="169000" />
+      <workItem from="1726977766352" duration="31251000" />
+      <workItem from="1727019855648" duration="17683000" />
+      <workItem from="1727156412977" duration="9976000" />
+      <workItem from="1727373333912" duration="444000" />
+      <workItem from="1727494978464" duration="23435000" />
+      <workItem from="1727757547417" duration="8419000" />
+      <workItem from="1727859694320" duration="3029000" />
+      <workItem from="1727930887913" duration="5579000" />
+      <workItem from="1728135219050" duration="35000" />
+      <workItem from="1728545687339" duration="3374000" />
+      <workItem from="1728715004698" duration="818000" />
+      <workItem from="1728887551376" duration="29285000" />
+      <workItem from="1729054527252" duration="1164000" />
+      <workItem from="1729257636357" duration="574000" />
+      <workItem from="1729412313919" duration="1497000" />
+      <workItem from="1729491984445" duration="651000" />
+      <workItem from="1730879341649" duration="12000" />
+      <workItem from="1730879955303" duration="57000" />
+      <workItem from="1731994948122" duration="3185000" />
+      <workItem from="1732084792805" duration="2588000" />
+      <workItem from="1732170409081" duration="1151000" />
+      <workItem from="1732197044582" duration="1727000" />
+      <workItem from="1732370804640" duration="1352000" />
+      <workItem from="1732470849078" duration="443000" />
+      <workItem from="1732522677349" duration="1816000" />
+      <workItem from="1732527984812" duration="1194000" />
+      <workItem from="1732532661085" duration="934000" />
+      <workItem from="1732557970646" duration="1668000" />
+      <workItem from="1732610691381" duration="689000" />
+      <workItem from="1732615657712" duration="1021000" />
+      <workItem from="1732761772043" duration="4168000" />
+      <workItem from="1733037211397" duration="2050000" />
+      <workItem from="1733051646868" duration="813000" />
+      <workItem from="1733126619599" duration="4847000" />
+      <workItem from="1733389335769" duration="1483000" />
+      <workItem from="1733652059753" duration="1506000" />
+      <workItem from="1733744993796" duration="7204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

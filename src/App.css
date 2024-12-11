@@ -1,0 +1,271 @@
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Vazirmatn", sans-serif;
+}
+body {
+  direction: rtl;
+}
+.main {
+  /* background-image: url("assets/images/background.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.bg-auth {
+  /* background-image: url("assets/images/auth-background.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root {
+  height: 100%;
+}
+
+.bg-primary {
+  background-color: #498696;
+}
+
+.bg-primary-500 {
+  background: #49869666;
+}
+.item-menu {
+  width: 100%;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.list-menu {
+  height: 100%;
+  width: 100%;
+}
+.icon-item-menu {
+  width: 30px;
+  height: 30px;
+  top: 57px;
+  left: 31px;
+}
+.text-item-menu {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-profile {
+  font-family: "Inknut Antiqua", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.icon-item-event {
+  width: 20px;
+  height: 20px;
+}
+
+.list-taps,
+.item-taps {
+  height: 42px;
+}
+
+.text-primary {
+  color: #498696;
+}
+.title-table-font {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item-tap {
+  cursor: pointer;
+  font-family: "Vazirmatn", sans-serif !important;
+}
+
+.active-tap {
+  border-bottom: 2px solid rgb(107 114 128);
+}
+
+.menu {
+  box-shadow: 0px 5px 15px 0px #8080808c;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #498696;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #498696;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.default-input-text,
+.input-date-container {
+  background: #a6cdd766;
+  border: 1px solid transparent;
+  outline: none;
+}
+.bg-default-input {
+  background: #a6cdd766;
+}
+
+.custom-input {
+  background-color: transparent;
+  border: none;
+  color: inherit; /* لتوريث لون النص من الـ label */
+  width: 100%;
+}
+
+.custom-input:focus {
+  outline: none; /* إزالة الإطار الأزرق الافتراضي عند التركيز */
+}
+
+.default-date-input:focus {
+  border: none;
+}
+
+.default-input-text:focus {
+  border: 1px solid #498696;
+}
+
+.custom-w-44 {
+  width: 44%;
+}
+
+.custom-w-49 {
+  width: 49%;
+}
+
+.default-text-area {
+  background: #a6cdd766;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+}
+
+.default-text-area:focus {
+  border: 1px solid #498696;
+}
+
+.btn-primary {
+  height: 2.5rem;
+  padding: 10px;
+}
+
+.bg-primary-btn{
+  background: #a6cdd766;
+}
+
+.select-default {
+  outline: none;
+  padding-left: 20px;
+  padding-right: 10px; /* لإتاحة مساحة كافية للسهم */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><polygon points="70,100 25,40 115,40" fill="%23498696"/></svg>')
+    no-repeat;
+  background-size: 15px; /* حجم السهم */
+  -webkit-appearance: none; /* إزالة السهم الافتراضي */
+  -moz-appearance: none; /* إزالة السهم الافتراضي */
+  appearance: none; /* إزالة السهم الافتراضي */
+  border: none; /* إزالة border الافتراضي */
+}
+
+.select-arrow-right {
+  padding-right: 5%;
+  background-position: 99.9% 50%;
+}
+
+.select-arrow-left {
+  background-position: 5% 50%;
+}
+
+.select-default-container {
+  position: relative;
+  background: #a6cdd766;
+  height: 2.5rem;
+  padding: 10px;
+  border-radius: 8px;
+} /* عرض الحاوية */
+
+.option-default {
+  border: none;
+}
+
+.text-default-opacity {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.bg-auth-form {
+  background: #49869699;
+}
+
+.tapsArea{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.font-family-primary{
+  font-family: "Katibeh", serif !important;
+}
+
+table thead {
+  font-weight: 400;
+  font-size: 18px !important;
+  font-family: "Katibeh", serif !important;
+
+}
+
+table tbody tr th , table tbody tr td {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  font-family: "Katibeh", serif !important;
+}
+.text-title{
+  font-size: 20px;
+}
+
+.input-font-size{
+  font-size: 18px !important;
+}
+
+.default-font-size{
+  font-size: 18px ;
+}
+
+th, td {
+  white-space: nowrap; /* هذا يساعد على منع النص من النزول لسطر جديد */
+}
+
+.border-primary{
+  border: 1px solid #498696;
+}
+
+.cookiesPerant {
+  height: 100px;
+}
+.cookies{
+  overflow-y: auto;
+  white-space: pre-wrap;
+  height: 100%;
+  scrollbar-width: none;
+  width: 150px;
+}
+

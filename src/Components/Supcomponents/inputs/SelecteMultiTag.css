@@ -1,0 +1,22 @@
+.css-18yfxbv-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding-right: 0 !important;
+}
+
+.css-18yfxbv-MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+    padding-right: 0 !important;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-108wi7k-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.css-108wi7k-MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding-right: 10px !important;
+    font-size: 20px;
+    height: 2.5rem !important;
+
+}
+
+.css-smubyb-MuiGrid-root .MuiGrid-item {
+    padding-top: 0 !important; /* Override any top padding */
+}
+
+.MuiInputBase-input::placeholder {
+    font-size: 18px;
+}

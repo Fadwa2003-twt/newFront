@@ -1,0 +1,13 @@
+.css-hlgwow {
+    display: flex !important; /* استخدم !important لتجاوز الأنماط الافتراضية */
+    align-items: center; /* إعادة تعيين محاذاة العناصر */
+    height: 2rem;
+}
+
+.css-mohuvp-dummyInput-DummyInput {
+    height: 0; /* يمكنك تحديد الارتفاع المناسب هنا */
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,87 @@
+.chatListContainer {
+  padding: 16px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  direction: ltr;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  direction: rtl;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0 8px;
+  height: 40px;
+}
+
+.searchIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.divider {
+  height: 20px;
+  width: 1%;
+  background-color: #ccc;
+  margin: 0 8px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.chatListItem {
+  display: flex;
+  align-items: center;
+  border-radius: 8px !important;
+  padding: 0 10px;
+  margin: 5px 0px;
+  width: 100%;
+  justify-content: flex-start;
+  direction: rtl;
+  text-align: right !important;
+}
+
+.selectedChat {
+  background-color: #a6cdd7;
+}
+
+.chatItemText {
+  flex: none;
+  margin-left: 8px;
+}
+
+/* قاعدة عامة لتأثير الـ hover */
+.chatListItem:hover {
+  background-color: #f0f0f0;
+}
+
+/* قاعدة خاصة للعناصر المحددة */
+.selectedChat {
+  background-color: #A6CDD7 !important;
+}
+
+/* إلغاء تأثير الـ hover على العنصر المحدد */
+.selectedChat:hover {
+  background-color: #A6CDD7 !important;
+  cursor: default; /* تغيير المؤشر عند التمرير فوق العنصر المحدد */
+}
+.listOfChats{
+  padding-left :10px !important;
+}
+
+

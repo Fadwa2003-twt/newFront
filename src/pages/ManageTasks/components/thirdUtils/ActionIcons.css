@@ -1,0 +1,10 @@
+/* ActionIcons.css */
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #498696; /* Change color on hover, adjust as needed */
+  transform: scale(1.1); /* Optional: Slightly increase the size on hover */
+  transition: color 0.3s, transform 0.3s; /* Smooth transition */
+}

@@ -1,0 +1,61 @@
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  gap: 1.5rem;
+  padding: 0 5rem;
+}
+
+.form-title {
+  font-size: 1.25rem;
+  grid-column: span 2;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.form-grid > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title alone */
+.form-grid > div:nth-child(1) {
+  grid-column: span 2;
+}
+
+/* Description alone */
+.form-grid > div:nth-child(2) {
+  grid-column: span 2;
+}
+
+/* Priority and team together */
+.form-grid > div:nth-child(3),
+.form-grid > div:nth-child(4) {
+  grid-column: span 1;
+}
+
+/* Employee, start date, and end date together */
+.form-grid > div:nth-child(5),
+.form-grid > div:nth-child(8),
+.form-grid > div:nth-child(9) {
+  grid-column: span 1;
+}
+
+/* Hours and minutes */
+.form-grid > div:nth-child(6),
+.form-grid > div:nth-child(7) {
+  grid-column: span 1;
+}
+
+.error-message {
+  color: red;
+}
+
+.submit-btn {
+  margin-top: 2.5rem;
+}
